@@ -1,0 +1,51 @@
+html{	
+	text-align: center;
+	background-color: #FFE4C4;
+}
+
+body{
+	zoom: 125%;
+	text-align: center;
+}
+
+button{
+    border-radius: 8px;
+    color: #ffe4e1;
+    transition: ease-in-out;
+    line-height: 0.5rem;
+    padding: 9px;
+    font-size: larger;
+}
+
+button[onclick*="myFunction"] {
+    font-size: 1rem; 
+    color: #2F4F4F; 
+	}
+
+button:hover {	
+	 border: 2px solid #111;
+  box-shadow: 0px 0px 26px 8px hsla(323, 87%, 50%, 0.664);
+}
+
+button:focus {
+	color: #000000;
+	background-color: #DEB887;
+}
+
+input{
+	text-align: center;
+}
+
+input[type-text] {
+	box-sizing: border-box;
+	padding: 10px 9px;
+	margin: 9px;
+	width: 7%;
+	border: 3px solid #2F4F4F;
+	transition: 0.5s;
+	outline: none;
+}
+
+input[type-text]: focus {
+	border: 3px solid #2F4F4F
+}
