@@ -10,13 +10,13 @@
                 '%': (a, b) => a % b
             };
 			
-			const operationNames = {
-				'+': 'sum',
-				'-': 'difference',
-				'*': 'product',
-				'/': 'quotient',
-				'%': 'remainder'
-			};
+	     const operationNames = {
+		  '+': 'sum',
+		  '-': 'difference',
+		  '*': 'product',
+		  '/': 'quotient',
+		  '%': 'remainder'
+	     };  
 			const result = operations[operator](x, y);
 			let operationText = operationNames[operator];
 
